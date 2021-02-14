@@ -1,0 +1,192 @@
+﻿song_id,item_id,name,full_name,genre,artist_name,original_bga_yn,loop_bga_yn,composed_by,singer,feat_by,arranged_by,visualized_by,cost_game_point,cost_game_cash,flag,status,free_yn,hidden_yn,open_yn,track_id,mod_date,update
+1,1,oblivion,OBLIVION ,Dramatic Trance,ESTi,Y,N,ESTi,,,,D-myo,0,0,0,,Y,N,Y,27,2.01E+13,0
+2,2,raisemeup,Raise me up,Rock & Pop,Planetboom,Y,N,Planetboom,Miya,,,"PUNEW, Super52",0,0,0,,Y,N,Y,40,2.01E+13,0
+3,3,lover,Lover,Barbie House,NDLee,Y,N,NDLee,Young,,,"MandRill, HooN",0,0,0,,Y,N,Y,1,2.01E+13,0
+4,4,tdot,In the Tdot,Electro HipHop,Mr.Thoro,Y,N,C. Morgan,,,,"DumpingLIFE, ENTIA J, Eco",0,0,0,,Y,N,Y,348,2.01E+13,0
+5,5,rayof,Ray of Illuminati,Euro Dance,ESTi,Y,N,ESTi,,,,"KIM YS, D",0,0,0,,Y,N,Y,58,2.02E+13,0
+6,6,etnalftsyvox,Eternal Fantasy (Miya Vocal Mix),Fantasy Pop,XeoN,Y,N,XeoN,Miya,Planetboom(on Guitar),,"NG, HooN",0,0,0,,Y,N,Y,51,2.01E+13,0
+7,7,symphony40,모짜르트 교향곡 40번 1악장,Classic Remix,Kim Chang Hoon,Y,N,Mozart,,,Kim Chang Hoon,"SAGWANAMU, ENTIA J",0,0,0,,Y,N,Y,277,2.02E+13,0
+8,8,sixpence,A Song of Sixpence,Toy box,makou,Y,N,makou,Itsuki and Her Friends,,,"GiggSan, SAREE",0,0,0,,Y,N,Y,334,2.01E+13,0
+9,9,becomemy,Become Myself,Hard Core,PIA,Y,N,"Kibum, Yohan",Yohan,,,moses,0,0,0,,Y,N,Y,304,2.01E+13,0
+10,10,baramege,바람에게 부탁해,Fantasy pop,Forte Escape,Y,N,Forte Escape,Miya,,,TAKO ASHIN,0,0,0,,Y,N,Y,28,2.01E+13,0
+11,11,signal,SigNalize,Electro Trance,Paul Bazooka,Y,N,Paul Bazooka,,,,Z_B,0,0,0,,Y,N,Y,319,2.01E+13,0
+12,12,ghost,유령,Fusion HipHop,STi,Y,N,STi,수정,"STi (on Rap), 안지연 (on Chorus) ",,"Tari, NOVA",0,0,0,,Y,N,Y,236,2.01E+13,0
+13,13,seolaim2,설레임 Part.2,Cute Pop,NDLee,Y,N,NDLee,Miya,,,"Lee Woo Chul, shin 105",0,0,0,,Y,N,Y,61,2.01E+13,0
+14,14,fury,Fury,Punk Rock,Sugardonut,Y,N,Sugardonut,Sugardonut,,,"Y.J, ZOZO, ssamanko",0,0,0,,Y,N,Y,291,2.01E+13,0
+15,15,kungfu,Kung-Fu Rider,Oriental Funk,AstroKid,Y,N,AstroKid,,,,Eco,0,0,0,,Y,N,Y,317,2.01E+13,0
+16,16,gobaek1,"고백, 꽃, 늑대",Piano Ballad,ReX,Y,N,ReX,,,,D,0,0,0,,Y,N,Y,282,2.01E+13,0
+17,17,sweetshining,Sweet Shining Shooting Star,Acin House,CROOVE,Y,N,CROOVE,So Fly,JC(on Rap),,"H2SO4, Jin",0,0,0,,Y,N,Y,264,2.01E+13,0
+18,18,ladymade,Ladymade Star,Space Idol Pop,ESTi,Y,N,ESTi,Sanch,,,TIV,0,0,0,,Y,N,Y,57,2.01E+13,0
+19,19,shiningmyboy,Shining My Boy,Ani Pop,AstroKid,Y,N,AstroKid,Lee Jung Eun,,,"Young-in, HooN",0,0,0,,Y,N,Y,332,2.01E+13,0
+20,20,forever,영원,Mordern Rock,BEXTER,Y,N,BEXTER,Miya,Planetboom(on Guitar),,"GODO, CARROTJUICE",0,0,0,,Y,N,Y,283,2.01E+13,0
+21,21,outlawreborn,OUT LAW - Reborn,Nu Skool Breakz,Mr.Funky,Y,N,CROOVE,,JC(on Rap),Mr.Funky,D,0,0,0,,Y,N,Y,297,2.01E+13,0
+22,22,goneastray,Gone Astray,Progressive House,makou,Y,N,makou,Etsuko Yusa,NieN (on Guitar),,"Eco, Xloth",0,0,0,,Y,N,Y,309,2.01E+13,0
+23,23,lonely,Mr.Lonely,Hybrid Rock,NieN,Y,N,NieN,Zim,,,AJ,0,0,0,,Y,N,Y,350,2.01E+13,0
+24,24,egg,EGG,Light Pop,Nauts,Y,N,Nauts,ZeeN,BOSCO (on Guitar),,"Armcho, HooN",0,0,0,,Y,N,Y,35,2.01E+13,0
+25,25,monoxide,MonoXide,Planet Core,Planetboom,Y,N,Planetboom,,,,"PANCHOK, 79C",0,0,0,,Y,N,Y,299,2.01E+13,0
+26,26,blythe,Blythe,Synth DnB,M2U,Y,N,M2U,Tari,,,D,0,0,0,,Y,N,Y,239,2.01E+13,1
+27,27,orbital,OrBiTal,Dublectrance,Paul Bazooka,Y,N,Paul Bazooka,,5han (on Voice),,Eco,0,0,0,,Y,N,Y,351,2.01E+13,0
+28,28,myheart,"My Heart, My Soul",R&B Slow,3rd Coast,Y,N,3rd Coast,So Fly,JC(on Rap),,"SAGWANAMU, jo jeong joo",0,0,0,,Y,N,Y,321,2.01E+13,0
+29,29,newday,Now a New Day,Electric Pop,Sui.Jay,Y,N,Sui.Jay,Sui.Jay,,,"BF, Jin",0,0,0,,Y,N,Y,222,2.01E+13,0
+30,30,leaveme,Leave me Alone,Hard Core,NieN,Y,N,NieN,NieN,,,"JAY, Z_B",0,0,0,,Y,N,Y,307,2.01E+13,0
+31,31,renovation,Renovation,Melodic Trance,XeoN,Y,N,XeoN,,,,"wony, ENTIA J",0,0,0,,Y,N,Y,330,2.01E+13,0
+32,32,mellowd,Mellow D Fantasy,K-Pop,NieN,Y,N,NieN,Sanch,,,"KUDA, Z_B",0,0,0,,Y,N,Y,306,2.01E+13,0
+33,33,lacamp,La Campanella : Nu Rave,Symphonic Rave,cranky,Y,N,Franz List,,,cranky,Z_B,0,0,0,,Y,N,Y,56,2.01E+13,0
+34,34,firstkiss,First Kiss,Dance Pop,BJJ,Y,N,BJJ,황정미,,,"D, Latte",0,0,0,,Y,N,Y,279,2.01E+13,0
+35,35,luvyourself,Luv Yourself,Club Dance,NDLee,Y,N,NDLee,소찬휘,,,"moolu, Woodstock",0,0,0,,Y,N,Y,335,2.01E+13,0
+36,36,inmyheart,In My Heart,House Pop,Tsukasa,Y,N,Tsukasa,Misato,,,"BF, Latte",0,0,0,,Y,N,Y,256,2.01E+13,0
+37,37,y,Y,Acid House,ND LEE,Y,N,NDLEE,Silver,,,"Sobong, Woodstock",0,0,0,,Y,N,Y,248,2.01E+13,0
+38,38,angel,Angel,Euro Dance,Laurent Newfield & Ravenant,Y,N,Laurent Newfield & Ravenant,Halya,,,"Jaguar Lee, AJ",0,0,0,,Y,N,Y,324,2.01E+13,0
+39,39,alone,Alone,Heal,Nauts,Y,N,Nauts,Ryu hye lim,,,"Tari, ENTIA J",0,0,0,,Y,N,Y,329,2.01E+13,0
+40,40,watchyour,Watch Your Step,90's Dance,XeoN,Y,N,XeoN,,Vocal Forge (on sample),,"MandRill, HooN",0,0,0,,Y,N,Y,52,2.01E+13,0
+41,41,loveis,Love is Beautiful,Flipper's Rock,Electronic Boutique,Y,N,Electronic Boutique,Kastle,P'sycho-Remi(on Guitar),,"Sara, DumpingLIFE",0,0,0,,Y,N,Y,298,2.01E+13,0
+42,42,blackswan,Black Swan,Electronic Waltz,TAK,Y,N,Tchaikovsky,,Seibin (on guitar),TAK,"Naye, Taek",0,0,0,,Y,N,Y,47,2.01E+13,0
+43,43,getontop,Get On Top,P-funk,Planetboom,Y,N,Planetboom,,,,"Bunnyhawk, Giggsan, Zzarygun, Liricomayu",0,0,0,,Y,N,Y,39,2.01E+13,0
+44,44,trip,Trip,Dance Pop,NieN,Y,N,NieN,안신애,,,NG,0,0,0,,Y,N,Y,225,2.01E+13,0
+45,45,themax,The MAX,Acid Dance,NDLee,Y,N,NDLee,NDLee,E.M (on Rap),,"DumpingLIFE, ENTIA J",0,0,0,,Y,N,Y,333,2.01E+13,0
+46,46,cosmicfantastic,Cosmic Fantastic Lovesong,Ani Pop,DINY,Y,N,DINY,chohee,,,"Panneh, Latte",0,0,0,,Y,N,Y,24,2.01E+13,0
+47,47,lighthouse,Light House,Happy Core,xxdbxx,Y,N,xxdbxx,,,,Eco,0,0,0,,Y,N,Y,244,2.01E+13,0
+48,48,justtoday,Just for Today,Modern Rock,J Minus,Y,N,Dylan Fant,,,,"managa, NOVA",0,0,0,,Y,N,Y,349,2.01E+13,0
+49,49,iwantyou,I Want You,House Dance,Lin-G,Y,N,Lin-G,Jay,,,"H2SO4, Latte",0,0,0,,Y,N,Y,175,2.01E+13,1
+50,50,heartofwitch,Heart of Witch,Classical Trance,ReX,Y,N,ReX,,,,"Tari, woodstock",0,0,0,,Y,N,Y,178,2.01E+13,0
+51,51,piano1,피아노 협주곡 1번,Classic Remix,WavFactory,Y,N,Tchaikovsky,,,WavFactory,Eco,0,0,0,,Y,N,Y,196,2.01E+13,0
+52,52,lovepanic,Love☆panic,Acoustic Pop,hiyong,Y,N,hiyong,sugarhate,,,"D, Nyoung",0,0,0,,Y,N,Y,337,2.01E+13,0
+53,53,vortex,VORTEX,Full On,Electronic Boutique,Y,N,Electronic Boutique,,,,Eco,0,0,0,,Y,N,Y,339,2.01E+13,0
+54,54,mukilteo,Mukilteo Beach,Maimi DnB,CROOVE,Y,N,CROOVE,Nina Park,,,"Sara, DumpingLIFE",0,0,0,,Y,N,Y,338,2.01E+13,0
+55,55,retention,Retention,Ethnic Groove,XeoN,Y,N,XeoN,,,,"38, ENTIA J",0,0,0,,Y,N,Y,340,2.01E+13,0
+56,56,luvistrue,Luv is True,Luv Pop,3rd Coast ,Y,N,3rd Coast ,So Fly,JC(on Rap),,Z_B,0,0,0,,Y,N,Y,308,2.01E+13,0
+57,57,divineservice,DIVINE SERVICE,Ethnic Techno,Electronic Boutique,Y,N,Electronic Boutique,,,,SR,0,0,0,,Y,N,Y,172,2.01E+13,0
+58,58,cherokee,Cherokee,Trance Fusion,xxdbxx,Y,N,xxdbxx,,,,Eco,0,0,0,,Y,N,Y,183,2.01E+13,0
+59,59,takeonme,Take on Me,House Dance,Cuve,Y,N,Cuve,Jannie,,,AJ,0,0,0,,Y,N,Y,331,2.01E+13,0
+60,60,everything,Everything,House Dance,3rd Coast ,Y,N,3rd Coast ,So Fly,JC(on Rap),,Eco,0,0,0,,Y,N,Y,215,2.01E+13,0
+61,61,supersonicrmx,SuperSonic (Mr.Funky Remix),Nu Disco,Mr.Funky,Y,N,Planetboom,,Michael Blunck (on Rap),Mr.Funky,DumpingLIFE,0,0,0,,Y,N,Y,186,2.01E+13,0
+62,62,keystothe,Keys to the world,Planet Core,Planetboom,Y,N,Planetboom,"Yohan(PIA),Planetboom",,,"GODO, CARROTJUICE",0,0,0,,Y,N,Y,289,2.01E+13,0
+63,63,morning,아침형 인간,80s 8bit,NDLee,Y,N,NDLee,Miya,,,"Young-in, ENTIA J",0,0,0,,Y,N,Y,177,2.01E+13,0
+64,64,fate,Fate,Fusion Hip Hop,STi,Y,N,STi,STi,,,"SINBARU, shin105",0,0,0,,Y,N,Y,281,2.01E+13,0
+65,65,brandnewdays,Brand NEW Days,Pop Rock,Planetboom,Y,N,Planetboom,Planetboom,,,"Lucy, DumpingLIFE",0,0,0,,Y,N,Y,265,2.01E+13,0
+66,66,rutin,Ruti'n,Urban Pop,BEXTER,Y,N,BEXTER,So Fly,"JC(on Rap),Planetboom(on Guitar)",,"Shin Min Kyung, CARROTJUICE",0,0,0,,Y,N,Y,21,2.01E+13,0
+67,67,festanova,Festa Nova,Tropical Jazz,TerraMycin,Y,N,TerraMycin,,,,DumpingLIFE,0,0,0,,Y,N,Y,341,2.01E+13,0
+68,68,super2011,SuperSonic 2011,Rock Band,Pentavision Sound LAB,Y,N,Planetboom,Michael Blunck,"Planetboom(on Guitar), AstroKid(on Guitar), Cuve(On Keyboard)",Pentavision Sound LAB,Pentavision Sound LAB,0,0,0,,Y,N,Y,328,2.01E+13,0
+69,69,stop,STOP,BigBand HOUSE,3rd Coast,Y,N,3rd Coast,So Fly,JC(on Rap),,"ZAKTAN, 79C",0,0,0,,Y,N,Y,234,2.01E+13,0
+70,70,desperado,Desperado,Electronic Funk,CROOVE,Y,N,CROOVE,,JC(on Rap),,"Cold Play, Latte",0,0,0,,Y,N,Y,274,2.01E+13,0
+71,71,starlight,별빛정원,Starlight Pop,vneld,Y,N,vneld,Lee Jung Eun,,,"PUNEW, ENTIA J",0,0,0,,Y,N,Y,342,2.01E+13,0
+72,72,thor,Thor,Melodic Trance,XeoN,Y,N,XeoN,,,,"STATO, HooN",0,0,0,,Y,N,Y,182,2.01E+13,0
+73,73,fermion,Fermion,Psychedelic Trance,makou,Y,N,makou,,,,"CRAZYRED, JIN",0,0,0,,Y,N,Y,287,2.01E+13,0
+74,74,remember,Remember,K-POP,Lin-G,Y,N,Lin-G,Miya,,,"BBANG, woodstock",0,0,0,,Y,N,Y,290,2.01E+13,0
+75,75,hereinthe,Here in the Moment,Latin House,Ruby Tuesday,Y,N,Ruby Tuesday,LEAH,,,"KKUEM, HWAIN, JIN",0,0,0,,Y,N,Y,179,2.01E+13,0
+76,76,sonof,SON OF SUN,Gabber,Hosoe Shinji,Y,N,Hosoe Shinji,,,,"Eco, HooN",0,0,0,,Y,N,Y,233,2.01E+13,0
+77,77,hellopinky,Hello Pinky,HiFi POP,NieN,Y,N,NieN,,,,"Tari, AJ",0,0,0,,Y,N,Y,62,2.01E+13,0
+78,78,someday,Someday,90's Pop,NieN,Y,N,NieN,이지애,,,Chris,0,0,0,,Y,N,Y,143,2.01E+13,0
+79,79,yourown,Your Own Miracle,Miracle Pop,Ruby Tuesday,Y,N,Ruby Tuesday,Christine Jones,,,"DMP2 Opening Staff, Z_B",0,0,0,,Y,N,Y,5,2.01E+13,0
+80,80,theguilty,The Guilty,Speed Funk,P'sycho-Remi,Y,N,P'sycho-Remi,,,,"SINBARU, woodstock",0,0,0,,Y,N,Y,293,2.01E+13,0
+81,81,rage,Rage Of Demon,Nu Metal,NieN,Y,N,NieN,NieN,,,DumpingLIFE,0,0,0,,Y,N,Y,202,2.01E+13,0
+82,82,season,Season (Warm Mix),Electronic Soul,makou,Y,N,makou,,Vocal Forge (on sample),,Nova,0,0,0,,Y,N,Y,303,2.01E+13,0
+83,83,baramegelive,바람에게 부탁해 Live Mix,Live Pop,Forte Escape,Y,N,Forte Escape,Miya,,,"DMP1 Opening Staff, Z_B",0,0,0,,Y,N,Y,276,2.01E+13,0
+84,84,dreamofwinds,Dream of Winds,Melodic Trance,XeoN,Y,N,XeoN,Miya,,,KIM YS,0,0,0,,Y,N,Y,300,2.01E+13,0
+85,85,fallen,Fallen Angel,Modern Rock,DJ Mocha,Y,N,DJ Mocha,Yujin,,,"Tari, ENTIA J",0,0,0,,Y,N,Y,273,2.01E+13,0
+86,86,hanzup,Hanz up!,Hip House,Mr.Funky,Y,N,Mr.Funky,,,,"DumpingLIFE, Z_B",0,0,0,,Y,N,Y,217,2.01E+13,0
+87,87,youandme,You & Me,K-Pop,NieN,Y,N,NieN,"정상희, 혜린",,,"KKUEM, Jin",0,0,0,,Y,N,Y,322,2.01E+13,0
+88,88,airwave,Airwave,Melodic Trance,ReX,Y,N,ReX,,,,Z_B,0,0,0,,Y,N,Y,267,2.01E+13,0
+89,89,burnitdown,Burn It Down,Industrial,P'sycho-Remi,Y,N,P'sycho-Remi,P'sycho-Remi,,,79C,0,0,0,,Y,N,Y,41,2.01E+13,0
+90,90,neversay,Never Say,Jungle Pop,NDLee,Y,N,NDLee,Yoa,,,"38, DumpingLIFE",0,0,0,,Y,N,Y,275,2.01E+13,0
+91,91,miles,Miles,Electro Fusion,Electronic Boutique,Y,N,Electronic Boutique,,,,BF,0,0,0,,Y,N,Y,3,2.01E+13,0
+92,92,emblem,Emblem,Irish Dance,makou,Y,N,makou,,,,"Xloth, D",0,0,0,,Y,N,Y,313,2.01E+13,0
+93,93,thorremix,Thor ~ Deep'in Absonant Mix ~,Melodic Trance,XeoN,Y,N,XeoN,P'sycho-Remi,,,"Eco, DumpingLIFE",0,0,0,,Y,N,Y,345,2.01E+13,0
+94,94,hexad,HEXAD,Electro House,Electronic Boutique,Y,N,Electronic Boutique,Yoa,,,"KIM YS, Z_B",0,0,0,,Y,N,Y,242,2.01E+13,0
+95,95,dualstrikers,Dual Strikers,Techno Trance,7 Sequence,Y,N,7 Sequence,,,,"GiggSan, Z_B, D",0,0,0,,Y,N,Y,19,2.01E+13,0
+96,96,puzzler,Puzzler,Toy Pop,Electronic Boutique,Y,N,Electronic Boutique,,,,"Sara, ENTIA J",0,0,0,,Y,N,Y,173,2.01E+13,0
+97,97,sin,SIN,Drum n Bass,ESTi,Y,N,ESTi,,,,RESS,0,0,0,,Y,N,Y,174,2.01E+13,0
+98,98,youshould,You should get over me,90's Rock,Jessica Wolff,Y,N,"Jessica Wolff, Janne Rintala",,,,"Sobong, aj",0,0,0,,Y,N,Y,347,2.01E+13,0
+99,99,kalwrnw,Kal_wrnw,Nu Skool Breaks,Lee Zu,Y,N,Lee Zu,,,,DumpingLIFE,0,0,0,,Y,N,Y,336,2.01E+13,0
+100,100,endofthemoon,End of the Moonlight,Techno Pop,Forte Escape,Y,N,Forte Escape,Miya,,,"EyeHead, US, PonGlow",0,0,0,,Y,N,Y,214,2.01E+13,0
+101,101,xeus,XEUS,Melodic Trance,XeoN,Y,N,XeoN,,,,"UKYO, Hoon",0,0,0,,Y,N,Y,316,2.01E+13,0
+102,102,d2,D2,Progressive,FIRST AID,Y,N,FIRST AID,,,,Amitasia,0,0,0,,Y,N,Y,213,2.01E+13,0
+103,103,deborah,Deborah,Komplextro,Paul Bazooka,Y,N,Paul Bazooka,Lucy,,,"PUNEW, DANZI",0,0,0,,Y,N,Y,343,2.01E+13,0
+104,104,liar,Liar,Techno Trance,zts,Y,N,zts,,,,ECO,0,0,0,,Y,N,Y,346,2.02E+13,0
+105,105,sunnyside,Sunny Side,Bright RnB,CROOVE,Y,N,CROOVE,So Fly,JC(on Rap),,TIV,0,0,0,,Y,N,Y,10,2.02E+13,0
+106,106,gobaek2,"Propose, Flower, Wolf PART.2",Progressive,ReX,Y,N,ReX,,,,D,0,0,0,,Y,N,Y,42,2.02E+13,0
+107,107,playthefuture,Play The Future,Electro House,Urbatronic Chopsticks,Y,N,Urbatronic Chopsticks,,,,"KIM YS, Z_B",0,0,0,,Y,N,Y,49,2.02E+13,0
+108,108,landscape,Landscape,Melodic Trance,Tsukasa,Y,N,Tsukasa,,,,KIM YS,0,0,0,,Y,N,Y,285,2.02E+13,0
+109,109,dearmylady,Dear My Lady,HI-NRG,Oriental ST8,Y,N,Oriental ST8,,,,Cozy,0,0,0,,Y,N,Y,38,2.02E+13,0
+110,110,beyondthe,Beyond The Future,Technical House,7 Sequence,Y,N,7 Sequence,,,,"ECO, D",0,0,0,,Y,N,Y,286,2.02E+13,0
+111,111,access,Access,Techno Trance,Sphazer,Y,N,Sphazer,,,,KIM YS,0,0,0,,Y,N,Y,208,2.02E+13,0
+112,112,coastaltempo,Coastal Tempo,Up Tempo,3rd Coast,Y,N,3rd Coast,So Fly,JC(on Rap),,"ZAKTAN, 79C",0,0,0,,Y,N,Y,280,2.02E+13,0
+113,113,enemystorm,Enemy Storm,Hardcore,CROOVE,Y,N,CROOVE,,,,Jay,0,0,0,,Y,N,Y,255,2.02E+13,0
+114,114,supersonic,SuperSonic,SpeedCore,Planetboom,Y,N,Planetboom,PlanetBoom,Mike Blunck(on Rap),,"D, Z_B",0,0,0,,Y,N,Y,224,2.02E+13,0
+115,115,cozyquilt,Cozy Quilt,Jazz House,bermei.inazawa,Y,N,bermei.inazawa,,,,"Yein, 79C",0,0,0,,Y,N,Y,295,2.02E+13,0
+116,116,jupiter,Jupiter Driving,Techno Stock,xxdbxx,Y,N,xxdbxx,,,,EyeHead,0,0,0,,Y,N,Y,219,2.02E+13,0
+117,117,giveme5,Give Me 5,Soulful House,NDLee,Y,N,NDLee,Baby Chou,,,"Sara, ENTIA J",0,0,0,,Y,N,Y,312,2.02E+13,0
+118,118,dreamagain,Dream Again,Ani Pop,DINY,Y,N,DINY,Creha,,,"Young-in, ENTIA J",0,0,0,,Y,N,Y,142,2.02E+13,0
+119,119,feelmabeat,Feel Ma Beat,Rap Metal,NieN,Y,N,NieN,"NieN, Jae Hwan",,,"ZAKTAN, DumpingLIFE",0,0,0,,Y,N,Y,314,2.02E+13,0
+120,120,memoryofbeach,Memory of Beach,Dance Pop,M2U,Y,N,M2U,,,,AP,0,0,0,,Y,N,Y,278,2.02E+13,0
+121,121,theclear,The Clear Blue Sky,J-POP,Tsukasa,Y,N,Tsukasa,,,,"Kkuem, Hoon",0,0,0,,Y,N,Y,263,2.02E+13,0
+122,122,jealousy,Jealousy,Marble House,3rd coast,Y,N,3rd coast,So Fly,JC(on Rap),,"willow, Waveun",0,0,0,,Y,N,Y,243,2.02E+13,0
+123,123,whiteblue,Whiteblue,Trance,zts,Y,N,zts,,,,KIMYS,0,0,0,,Y,N,Y,184,2.02E+13,0
+124,124,honeymoon,Honeymoon,Acid Pop,Humming Urban Stereo,Y,N,Humming Urban Stereo,Yozo,,,"SARA, 79c",0,0,0,,Y,N,Y,284,2.02E+13,0
+125,125,chemical,Chemical Slave,Euro Dance,XeoN,Y,N,XeoN,,,,Amitasia,0,0,0,,Y,N,Y,310,2.02E+13,0
+126,126,putemup,Put'Em Up,Reggaeton-Like,makou,Y,N,makou,,,,Dumping Life,0,0,0,,Y,N,Y,296,2.02E+13,0
+127,127,cypher,Cypher Gate,Hi-Break Core,7 Sequence,Y,N,7 Sequence,,,,KIMYS,0,0,0,,Y,N,Y,240,2.02E+13,0
+128,128,luvflowrmx1,Luv Flow (Funky House Mix),Funky House,Paul Bazooka,Y,N,3rd Coast,So Fly,JC(on Rap),Paul Bazooka,Moses,0,0,0,,Y,N,Y,301,2.02E+13,0
+129,129,xlasher,XLASHER,Slash Core,Hosoe Shinji,Y,N,Hosoe Shinji,Mr.Yoshida,,Hosoe Shinji,"Sara, Dumping Life",0,0,0,,Y,N,Y,59,2.02E+13,0
+130,130,sayitfrom,Say It From Your Heart,Classic Handbag,makou,Y,N,makou,,Yoshihiro Tsukahara (on Guitar),makou,"GrooveBear , Z_B",0,0,0,,Y,N,Y,294,2.02E+13,0
+131,131,bamboo,Bamboo on Bamboo,Gabba,Sampling Masters MEGA,Y,N,Sampling Masters MEGA,,,Sampling Masters MEGA,wony,0,0,0,,Y,N,Y,325,2.02E+13,0
+132,132,falling,Fallin' in Luv,Luv Pop,3rd Coast,Y,N,3rd Coast,So Fly,JC (on Rap),3rd Coast,"Tari, jo jeong joo",0,0,0,,Y,N,Y,311,2.02E+13,0
+133,133,coloursof,Colours of Sorrow,Colours POP,Tsukasa,Y,N,Tsukasa,Esprit Lee,,Tsukasa,"Shin Min Kyung, CARROTJUICE",0,0,0,,Y,N,Y,260,2.02E+13,0
+134,134,area7,Area 7,Trance,Sphazer,Y,N,Sphazer,,,Sphazer,KIMYS,0,0,0,,Y,N,Y,209,2.02E+13,0
+135,135,outofcont,Out of CTRL,Drum & Bass,Mr.Funky,Y,N,Mr.Funky,Yohan,,Mr.Funky,"Zaktan, Out",0,0,0,,Y,N,Y,318,2.02E+13,0
+136,136,rockstar,RockSTAR,Electro House,Mr.Funky,Y,N,Mr.Funky,Mr.Funky,Michael Blunck(on Rap),Mr.Funky,aj,0,0,0,,Y,N,Y,115,2.02E+13,0
+137,137,darkprism,Dark Prism,Melodic Trance,Tsukasa,Y,N,Tsukasa,,,Tsukasa,"SAGWANAMU, Ruki",0,0,0,,Y,N,Y,320,2.02E+13,0
+138,138,rightback,Right Back,UK Hardcore,TANUKI,Y,N,TANUKI,,Royalty Free Samples ,TANUKI,Amitasia,0,0,0,,Y,N,Y,315,2.02E+13,0
+139,139,grave,Grave Consequence,DNB Trance,Tsukasa,Y,N,Tsukasa,,,Tsukasa,"Khang-Keun, Latte",0,0,0,,Y,N,Y,288,2.02E+13,0
+140,140,beatudown,Beat U Down,Euro Beat,makou,Y,N,makou,,,makou,"KIMYS, Z_B",0,0,0,,Y,N,Y,292,2.02E+13,0
+141,141,beeutiful,BEE-U-TIFUL,Drum'n Bass,FIRST AID,Y,N,FIRST AID,,,FIRST AID,D,0,0,0,,Y,N,Y,210,2.02E+13,0
+142,142,sweetdream,Sweet Dream,House Dance,Lin-G,Y,N,Lin-G,Jay,,Lin-G & Mr. love&pop,"BF, Jin",0,0,0,,Y,N,Y,185,2.02E+13,0
+143,143,showdown,Showdown,Brass Funk,LeeZu,Y,N,LeeZu,,,LeeZu,"Gaeberman, DumpingLIFE",0,0,0,,Y,N,Y,247,2.02E+13,0
+144,144,ad2222,AD2222,Junkno,CROOVE,Y,N,CROOVE,,,CROOVE,KIMYS,0,0,0,,Y,N,Y,326,2.02E+13,0
+145,145,rainbow,Over the Rainbow,Ani Pop,Tsukasa,Y,N,Tsukasa,Aki Misawa,,Tsukasa,"Mino, Jin",0,0,0,,Y,N,Y,261,2.02E+13,0
+146,146,flyaway,Fly Away,Trance,XeoN,Y,N,XeoN,,,XeoN,SB_ENGINEER,0,0,0,,Y,N,Y,344,2.02E+13,0
+147,147,wannabe,Wanna Be Your Lover,Euro Dance,Laurent Newfield & Ravenant,Y,N,Ravenant,Alex Ray,,Laurent Newfield & Ravenant,"Zaquard, Shin105",0,0,0,,Y,N,Y,323,2.02E+13,0
+148,148,supernova,SuperNova,Rave,Cranky,Y,N,Cranky,,,Cranky,"Ottol, ENTIA J",0,0,0,,Y,N,Y,327,2.02E+13,0
+149,149,rainmaker,The Rain Maker,Epic Trance,Paul Bazooka,Y,N,Paul Bazooka,,,Paul Bazooka,moses,0,0,0,,Y,N,Y,302,2.02E+13,0
+150,150,if,IF,Rock,Vanilla Unity,Y,N,Vanilla Unity,이승주,,Vanilla Unity,"Jisun, moses",0,0,0,,Y,N,Y,305,2.02E+13,0
+151,151,melody,Melody,Cute POP,bermei.inazawa/UC,Y,N,bermei.inazawa/UC,Esprit Lee,,bermei.inazawa/UC,"BF, Jin",0,0,0,,Y,N,Y,13,2.02E+13,0
+152,152,thelastdance,The Last Dance,India Hip-Hop,Urbatronic Chopsticks,Y,N,Urbatronic Chopsticks,Esprit Lee,JJK (on Rap),Urbatronic Chopsticks,"SARA, HooN",0,0,0,,Y,N,Y,388,2.02E+13,0
+153,153,secretworld,Secret World,Teenpop,Sweetune,Y,N,Sweetune,Miya,,Sweetune,"Mirk, Jin",0,0,0,,Y,N,Y,270,2.02E+13,0
+154,154,lovely,Lovely Hands,Space Pop,Planetboom,Y,N,Planetboom,Miya,,Planetboom,"SARA, Jin",0,0,0,,Y,N,Y,394,2.02E+13,0
+155,155,readynow,Ready Now,Euro Dance,Ruby Tuesday,Y,N,Ruby Tuesday,LEAH,,Ruby Tuesday,"Kopye,79c",0,0,0,,Y,N,Y,428,2.02E+13,0
+156,156,voyage,Voyage,Broken Beat,makou,Y,N,makou,Lin,,makou,"SAGWANAMU, CARROTJUICE",0,0,0,,Y,N,Y,433,2.02E+13,0
+157,157,shoreline,Shoreline,Balearic House,Oriental ST8,Y,N,Oriental ST8,,,Oriental ST8,"REWHY, Waveun",0,0,0,,Y,N,Y,223,2.02E+13,0
+158,158,inmydream,In My Dream,Mental Metal,NDLee,Y,N,NDLee,,,NDLee,"Weltol, Latte",0,0,0,,Y,N,Y,390,2.02E+13,0
+159,159,glorydaykr,glory day,J-Rock,BEXTER x Mycin.T,Y,N,BEXTER x Mycin.T,DyoN Joo,,Mycin.T,"SHIHYUN, DumpingLIFE, BJLee",0,0,0,,Y,N,Y,385,2.02E+13,0
+160,160,glorydayjp,glory day (Japanese Version),J-Rock,BEXTER x Mycin.T,Y,N,BEXTER x Mycin.T,DyoN Joo,,Mycin.T,"SHIHYUN, DumpingLIFE, BJLee",0,0,0,,Y,N,Y,434,2.02E+13,0
+161,161,overyourdream,Over Your Dream,Pop Rock,xxdbxx,Y,N,xxdbxx,Sin So Hee,,xxdbxx,MUCA with Fans,0,0,0,,Y,N,Y,410,2.02E+13,0
+162,162,mindcontrol,Mind Control,Modern hard Rock,NieN,Y,N,NieN,NieN & Yayoo(Band 'Guyz'),,NieN,BraveNine,0,0,0,,Y,N,Y,220,2.02E+13,0
+163,163,theone,The One,Happy 2step,Paul Bazooka,Y,N,Paul Bazooka,,,Paul Bazooka,Dookong,0,0,0,,Y,N,Y,438,2.02E+13,0
+164,164,break,Break!,Synth Pop Rock,Mr.Funky,Y,N,Mr.Funky,Garden(RubyStar),,Mr.Funky,"JUNA,ENTIA J",0,0,0,,Y,N,Y,211,2.02E+13,0
+165,165,ai,A.I,Techno,Forte Escape,Y,N,Forte Escape,,,Forte Escape,KIMYS,0,0,0,,Y,N,Y,228,2.02E+13,0
+166,166,novarmx,Nova (Mr.Funky Remix),Nu Skool Breakz,Mr.Funky,Y,N,BEXTER,Michael Blunck,Planetboom(on Guitar),Mr.Funky,"SAREE, D",0,0,0,,Y,N,Y,441,2.02E+13,0
+167,167,zetrmx1,Zet (Mr.Funky Remix) ,Indie Dance,Mr.Funky,Y,N,BEXTER,Bloom,Planetboom(on Guitar),Mr.Funky,KIMYS,0,0,0,,Y,N,Y,442,2.02E+13,0
+168,168,masairmx1,Masai (Electro House Mix),Electro House,Paul Bazooka,Y,N,CROOVE,So Fly,JC(on Rap),Paul Bazooka,Eco,0,0,0,,Y,N,Y,446,2.02E+13,0
+169,169,enemyrmx1,Enemy Storm (Dark Jungle Mix),Dark Jungle,Paul Bazooka,Y,N,CROOVE,,JC(on Rap),Paul Bazooka,"NOVA, Super52",0,0,0,,Y,N,Y,445,2.02E+13,0
+170,170,nbranger2017,NB Ranger - Virgin Force,Hard Rock,NieN,Y,N,NieN,Ace(of Paran),,NieN,DumpingLIFE,0,0,0,,Y,N,Y,380,2.02E+13,0
+171,171,nbpower,NB POWER,AniRock,NieN,Y,N,NieN,NieN,,NieN,Eco,0,0,0,,Y,N,Y,246,2.02E+13,0
+172,172,hamsin,Hamsin,Trance,makou,Y,N,makou,,,makou,Ache,0,0,0,,Y,N,Y,232,2.02E+13,0
+173,173,oblivionrmx,OBLIVION (Rockin' Night Style),Rock,NieN,Y,N,ESTi,,,NieN,"D-myo, NG, TARI, ECO, ENTIA J",0,0,0,,Y,N,Y,463,2.02E+13,0
+174,174,lemonade,레모네이드,Lounge DnB,M2U,Y,N,M2U,Tari,,M2U,"TARI, ETER",0,0,0,,Y,N,Y,464,2.02E+13,0
+175,175,silentclarity,Silent Clarity,Art CORE,Tsukasa,Y,N,Tsukasa,Aki Misawa,,Tsukasa,"Dumping Life, ENTIA J",0,0,0,,Y,N,Y,262,2.02E+13,0
+176,176,nanorisk,NANO RISK,NANO D&B,Dayz,Y,N,Dayz,Tornado,,Dayz,"KIMYS, ECO",0,0,0,,Y,N,Y,443,2.02E+13,0
+177,177,rolling,Rolling On the Duck,Core & Metal,NieN,Y,N,NieN,NieN,,NieN,JAY,0,0,0,,Y,N,Y,199,2.02E+13,0
+178,178,dontdie,Don't Die,Drum'n Bass,Paul Bazooka,Y,N,Paul Bazooka,Paul Bazooka,,,"S.in, RK",0,0,0,,Y,N,Y,369,2.02E+13,0
+179,179,remain,Remains Of Doom,Industrial Rock,NieN,Y,N,NieN,NieN,,NieN,Gunzo,0,0,0,,Y,N,Y,375,2.02E+13,0
+180,180,closer,CLOSER,Pure House,3rd Coast,Y,N,3rd Coast,So Fly,JC(on Rap),3rd Coast,Giggsan,0,0,0,,Y,N,Y,17,2.02E+13,0
+181,181,lifewithu,A Life With You,Broken Beat,makou,Y,N,makou,Fumi,,makou,"Mandrill, Hoon",0,0,0,,Y,N,Y,484,2.02E+13,0
+182,182,nevermind,Nevermind,Epic Trance,Paul Bazooka,Y,N,Paul Bazooka,,,Paul Bazooka,Gunzo,0,0,0,,Y,N,Y,422,2.01811E+13,0
+183,183,binaryworld,Binary World,Melodic Trance,Tsukasa,Y,N,Tsukasa,Aki misawa,,Tsukasa,"Racoona, DumpingLIFE",0,0,0,,Y,N,Y,387,2.01811E+13,0
+184,184,jbg,JBG,Yellow Hiphop,CROOVE,Y,N,CROOVE,,JC(on Rap),CROOVE,Eyehead,0,0,0,,Y,N,Y,481,2.01811E+13,0
+185,185,getout,GET OUT,RnB Hip Hop,NDLee,Y,N,NDLee,Gypsi Road & Jimmy Len,,NDLee,Gunzo,0,0,0,,Y,N,Y,231,2.01811E+13,0
+186,186,canwetalk,Can We Talk,Acid jazz,Forte Escape,Y,N,Forte Escape,Pyk,,Forte Escape,Aqualix,0,0,0,,Y,N,Y,489,2.01811E+13,0
+187,187,net,Never Ending TECHNIKA,Electro Funk,Studio LAY-BACK,Y,N,Studio LAY-BACK,Studio LAY-BACK,,Studio LAY-BACK,SB_ENGINEER,0,0,0,,Y,N,Y,490,2.01811E+13,0
+188,188,childof,Child of Night,Electro House,GOTH,Y,N,GOTH,,,GOTH,Gunzo,0,0,0,,Y,N,Y,362,20181217000000,1
+189,189,killerbee,KILLER BEE,Trap Hop,GOTH,Y,N,GOTH,,Muchi(on Rap),GOTH,"zaktan, JOJ",0,0,0,,Y,N,Y,363,20181217000000,1
+190,190,shadowflower,Shadow Flower,Pop,ned,Y,N,ned,Moa,,ned,"Tari, ENTIA J",0,0,0,,Y,N,Y,368,20181217000000,1
+191,191,uad,U.A.D,Future House,HAYAKO,Y,N,HAYAKO,,,HAYAKO,AJ,0,0,0,,Y,N,Y,415,20181217000000,1
