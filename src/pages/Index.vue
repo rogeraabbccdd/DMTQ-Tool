@@ -4,7 +4,7 @@
       .container
         .row
           .col-12.q-mx-auto
-            h4.text-center.text-white DMTQ Tool
+            h4.text-center.text-white DMTQ Tool v{{ version }}
           .col-12.q-mx-auto
             q-tabs(v-model="tab")
               q-tab(name="songs" icon="album" label="Songs")
@@ -156,12 +156,14 @@
 </template>
 
 <script>
+import { version } from '../../package.json'
 import { remote, ipcRenderer } from 'electron'
 
 export default {
   name: 'PageIndex',
   data () {
     return {
+      version,
       tab: 'settings',
       modelPath: '',
       saving: false,
