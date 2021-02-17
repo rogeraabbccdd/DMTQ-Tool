@@ -119,7 +119,7 @@ export default {
         let hash = md5File.sync(destPath)
         let fileSize = fs.statSync(destPath).size
         hashs.push({ file: destPath2, hash, size: fileSize })
-    
+
         // **** update android song_song.csv ****
         destPath = path.join(filePath, `android/table/${lang}/song_song.csv`)
         destPath2 = `android/table/${lang}/song_song.csv`
@@ -133,7 +133,7 @@ export default {
         hash = md5File.sync(destPath)
         fileSize = fs.statSync(destPath).size
         hashs.push({ file: destPath2, hash, size: fileSize })
-    
+
         // **** update ios category_categoryproduct.csv ****
         let categoryproducts = []
         // read csv
@@ -176,7 +176,7 @@ export default {
         hash = md5File.sync(destPath)
         fileSize = fs.statSync(destPath).size
         hashs.push({ file: destPath2, hash, size: fileSize })
-    
+
         // **** update android category_categoryproduct.csv ****
         categoryproducts = []
         destPath = path.join(filePath, `android/table/${lang}/category_categoryproduct.csv`)
@@ -218,7 +218,7 @@ export default {
         hash = md5File.sync(destPath)
         fileSize = fs.statSync(destPath).size
         hashs.push({ file: destPath2, hash, size: fileSize })
-    
+
         // **** update ios product_item.csv ****
         // read csv
         let productItems = []
@@ -238,7 +238,7 @@ export default {
             productItems.push({
               item_id: song.song_id,
               item_name: song.name,
-              img_url_1: '',
+              img_url_1: 'e33_' + song.name,
               img_url_2: '',
               description: '',
               repeat_count: 0,
@@ -271,7 +271,7 @@ export default {
         hash = md5File.sync(destPath)
         fileSize = fs.statSync(destPath).size
         hashs.push({ file: destPath2, hash, size: fileSize })
-    
+
         // **** update android product_item.csv ****
         // read csv
         productItems = []
@@ -291,7 +291,7 @@ export default {
             productItems.push({
               item_id: song.song_id,
               item_name: song.name,
-              img_url_1: '',
+              img_url_1: 'e33_' + song.name,
               img_url_2: '',
               description: '',
               repeat_count: 0,
@@ -324,7 +324,7 @@ export default {
         hash = md5File.sync(destPath)
         fileSize = fs.statSync(destPath).size
         hashs.push({ file: destPath2, hash, size: fileSize })
-    
+
         // **** update ios product_product.csv ****
         // read csv
         let productProducts = []
@@ -337,10 +337,10 @@ export default {
           })
         await once(readStream, 'finish')
         // delete songs id > 191
-        productProducts = productProducts.filter(productProduct => 
+        productProducts = productProducts.filter(productProduct =>
           !((parseInt(productProduct.product_id) > 191 && parseInt(productProduct.product_id) < 10001) || (parseInt(productProduct.product_id) > 1000191 && parseInt(productProduct.product_id) < 1010001))
         )
-        
+
         // add new songs
         let platformProductID = 20000
         for (const song of songs) {
@@ -360,7 +360,7 @@ export default {
             })
             platformProductID++
             productProducts.push({
-              product_id: '1000'+song.song_id,
+              product_id: '1000' + song.song_id,
               item_id: song.song_id,
               platform_product_id: platformProductID,
               store_product_id: 'com.neowizInternet.game.dmtq.' + song.name,
@@ -393,7 +393,7 @@ export default {
         hash = md5File.sync(destPath)
         fileSize = fs.statSync(destPath).size
         hashs.push({ file: destPath2, hash, size: fileSize })
-    
+
         // **** update android product_product.csv ****
         productProducts = []
         destPath = path.join(filePath, `android/table/${lang}/product_product.csv`)
@@ -405,7 +405,7 @@ export default {
           })
         await once(readStream, 'finish')
         // delete songs id > 191
-        productProducts = productProducts.filter(productProduct => 
+        productProducts = productProducts.filter(productProduct =>
           !((parseInt(productProduct.product_id) > 191 && parseInt(productProduct.product_id) < 10001) || (parseInt(productProduct.product_id) > 1000191 && parseInt(productProduct.product_id) < 1010001))
         )
 
@@ -428,7 +428,7 @@ export default {
             })
             platformProductID++
             productProducts.push({
-              product_id: '1000'+song.song_id,
+              product_id: '1000' + song.song_id,
               item_id: song.song_id,
               platform_product_id: platformProductID,
               store_product_id: 'com.neowizInternet.game.dmtq.' + song.name,
@@ -461,7 +461,7 @@ export default {
         hash = md5File.sync(destPath)
         fileSize = fs.statSync(destPath).size
         hashs.push({ file: destPath2, hash, size: fileSize })
-    
+
         // **** update ios item_desc.csv ****
         let itemDescs = []
         destPath = path.join(filePath, `ios/table/${lang}/item_desc_${lang}.csv`)
@@ -503,7 +503,7 @@ export default {
         hash = md5File.sync(destPath)
         fileSize = fs.statSync(destPath).size
         hashs.push({ file: destPath2, hash, size: fileSize })
-    
+
         // **** update android item_desc.csv ****
         itemDescs = []
         destPath = path.join(filePath, `android/table/${lang}/item_desc_${lang}.csv`)
@@ -545,7 +545,7 @@ export default {
         hash = md5File.sync(destPath)
         fileSize = fs.statSync(destPath).size
         hashs.push({ file: destPath2, hash, size: fileSize })
-    
+
         // **** update ios song_desc.csv ****
         let songDescs = []
         destPath = path.join(filePath, `ios/table/${lang}/song_desc_${lang}.csv`)
@@ -592,7 +592,7 @@ export default {
         hash = md5File.sync(destPath)
         fileSize = fs.statSync(destPath).size
         hashs.push({ file: destPath2, hash, size: fileSize })
-    
+
         // **** update android song_desc.csv ****
         songDescs = []
         destPath = path.join(filePath, `android/table/${lang}/song_desc_${lang}.csv`)
@@ -664,7 +664,7 @@ export default {
       }
       writeStream.end()
       await once(writeStream, 'finish')
-    
+
       // **** android update patch.csv ****
       patches = []
       destPath = path.join(filePath, 'android/patch_new.csv')
@@ -689,7 +689,7 @@ export default {
       }
       writeStream.end()
       await once(writeStream, 'finish')
-    
+
       event.reply('saveSong-reply')
     })
 
@@ -710,7 +710,7 @@ export default {
         await once(writeStream, 'finish')
         let hash = md5File.sync(destPath)
         let fileSize = fs.statSync(destPath).size
-        hashiOS = {hash, size: fileSize }
+        hashiOS = { hash, size: fileSize }
 
         // **** update android song_songPattern.csv ****
         destPath = path.join(filePath, `android/table/${lang}/song_songPattern.csv`)
@@ -723,7 +723,7 @@ export default {
         await once(writeStream, 'finish')
         hash = md5File.sync(destPath)
         fileSize = fs.statSync(destPath).size
-        hashAndroid = {hash, size: fileSize }
+        hashAndroid = { hash, size: fileSize }
       }
 
       // **** ios update patch.csv ****
