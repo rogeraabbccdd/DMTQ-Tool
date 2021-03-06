@@ -657,6 +657,20 @@ export default {
         hashs.push({ file: 'android/dlc/d3_e33.unity3d', hash, size: fileSize, compressed_checksum: '', compressed_file_size: '', compressed: '0' })
       }
 
+      // **** caculate custom songs opus ****
+      const customSongs = songs.filter(song => song.song_id > 191)
+      for (const song of customSongs) {
+        let file = `ios/preview/${song.name}.p.opus`
+        let opusPath = path.join(filePath, file)
+        let exists = fs.existsSync(opusPath)
+        if (exists) {
+          let hash = md5File.sync(opusPath)
+          let fileSize = fs.statSync(opusPath).size
+          hashs.push({ file: `ios/preview/${song.name}.p.opus`, hash, size: fileSize, compressed_checksum: '', compressed_file_size: '', compressed: '0' })
+          hashs.push({ file: `android/preview/${song.name}.p.opus`, hash, size: fileSize, compressed_checksum: '', compressed_file_size: '', compressed: '0' })
+        }
+      }
+
       // **** ios update patch.csv ****
       let patches = []
       let destPath = path.join(filePath, 'ios/patch_new.csv')
@@ -666,19 +680,37 @@ export default {
           patches.push(data)
         })
       await once(readStream, 'finish')
+      // hash file in patch
       for (const i in patches) {
-        for (const hash of hashs) {
-          if (('ios/' + patches[i].file_name).includes(hash.file)) {
-            patches[i].checksum = hash.hash
-            patches[i].file_size = hash.size
+        for (const j in hashs) {
+          if (('ios/' + patches[i].file_name).includes(hashs[j].file)) {
+            patches[i].checksum = hashs[j].hash
+            patches[i].file_size = hashs[j].size
 
-            if (hash.compressed && hash.compressed === '0') {
-              patches[i].compressed_checksum = hash.compressed_checksum
-              patches[i].compressed_file_size = hash.compressed_file_size
-              patches[i].compressed = hash.compressed
+            if (hashs[j].compressed && hashs[j].compressed === '0') {
+              patches[i].compressed_checksum = hashs[j].compressed_checksum
+              patches[i].compressed_file_size = hashs[j].compressed_file_size
+              patches[i].compressed = hashs[j].compressed
             }
+
+            hashs[j].iosAdded = true
           }
         }
+      }
+      // new opus files
+      let hashs2 = hashs.filter(hash => hash.file.includes('ios') && !hash.iosAdded)
+      for (const hash of hashs2) {
+        patches.push({
+          file_name: hash.file.replace(/ios\//g, ''),
+          file_size: hash.size,
+          checksum: hash.hash,
+          compressed_file_size: '',
+          compressed_checksum: '',
+          acquire_on_demand: '0',
+          compressed: '0',
+          platform: '',
+          tag: ''
+        })
       }
       let writeStream = fs.createWriteStream(destPath, { flag: 'w', mode: 0o777 })
       writeStream.write('file_name,file_size,checksum,compressed_file_size,compressed_checksum,acquire_on_demand,compressed,platform,tag,\r\n')
@@ -698,18 +730,35 @@ export default {
         })
       await once(readStream, 'finish')
       for (const i in patches) {
-        for (const hash of hashs) {
-          if (('android/' + patches[i].file_name).includes(hash.file)) {
-            patches[i].checksum = hash.hash
-            patches[i].file_size = hash.size
+        for (const j in hashs) {
+          if (('android/' + patches[i].file_name).includes(hashs[j].file)) {
+            patches[i].checksum = hashs[j].hash
+            patches[i].file_size = hashs[j].size
 
-            if (hash.compressed && hash.compressed === '0') {
-              patches[i].compressed_checksum = hash.compressed_checksum
-              patches[i].compressed_file_size = hash.compressed_file_size
-              patches[i].compressed = hash.compressed
+            if (hashs[j].compressed && hashs[j].compressed === '0') {
+              patches[i].compressed_checksum = hashs[j].compressed_checksum
+              patches[i].compressed_file_size = hashs[j].compressed_file_size
+              patches[i].compressed = hashs[j].compressed
             }
+
+            hashs[j].androidAdded = true
           }
         }
+      }
+      // new opus files
+      hashs2 = hashs.filter(hash => hash.file.includes('android') && !hash.androidAdded)
+      for (const hash of hashs2) {
+        patches.push({
+          file_name: hash.file.replace(/android\//g, ''),
+          file_size: hash.size,
+          checksum: hash.hash,
+          compressed_file_size: '',
+          compressed_checksum: '',
+          acquire_on_demand: '0',
+          compressed: '0',
+          platform: '',
+          tag: ''
+        })
       }
       writeStream = fs.createWriteStream(destPath, { flag: 'w', mode: 0o777 })
       writeStream.write('file_name,file_size,checksum,compressed_file_size,compressed_checksum,acquire_on_demand,compressed,platform,tag,\r\n')
