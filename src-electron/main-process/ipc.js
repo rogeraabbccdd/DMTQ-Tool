@@ -640,6 +640,23 @@ export default {
         fileSize = fs.statSync(destPath).size
         hashs.push({ file: destPath2, hash, size: fileSize })
       }
+      // **** caculate ios e33 ****
+      let e33path = path.join(filePath, 'ios/dlc/d3_e33.unity3d')
+      let e33exists = fs.existsSync(e33path)
+      if (e33exists) {
+        let hash = md5File.sync(e33path)
+        let fileSize = fs.statSync(e33path).size
+        hashs.push({ file: 'ios/dlc/d3_e33.unity3d', hash, size: fileSize, compressed_checksum: '', compressed_file_size: '', compressed: '0' })
+      }
+      // **** caculate ios e33 ****
+      e33path = path.join(filePath, 'android/dlc/d3_e33.unity3d')
+      e33exists = fs.existsSync(e33path)
+      if (e33exists) {
+        let hash = md5File.sync(e33path)
+        let fileSize = fs.statSync(e33path).size
+        hashs.push({ file: 'android/dlc/d3_e33.unity3d', hash, size: fileSize, compressed_checksum: '', compressed_file_size: '', compressed: '0' })
+      }
+
       // **** ios update patch.csv ****
       let patches = []
       let destPath = path.join(filePath, 'ios/patch_new.csv')
@@ -654,6 +671,12 @@ export default {
           if (('ios/' + patches[i].file_name).includes(hash.file)) {
             patches[i].checksum = hash.hash
             patches[i].file_size = hash.size
+
+            if (hash.compressed && hash.compressed === '0') {
+              patches[i].compressed_checksum = hash.compressed_checksum
+              patches[i].compressed_file_size = hash.compressed_file_size
+              patches[i].compressed = hash.compressed
+            }
           }
         }
       }
@@ -679,6 +702,12 @@ export default {
           if (('android/' + patches[i].file_name).includes(hash.file)) {
             patches[i].checksum = hash.hash
             patches[i].file_size = hash.size
+
+            if (hash.compressed && hash.compressed === '0') {
+              patches[i].compressed_checksum = hash.compressed_checksum
+              patches[i].compressed_file_size = hash.compressed_file_size
+              patches[i].compressed = hash.compressed
+            }
           }
         }
       }
