@@ -644,28 +644,28 @@ export default {
       let e33path = path.join(filePath, 'ios/dlc/d3_e33.unity3d')
       let e33exists = fs.existsSync(e33path)
       if (e33exists) {
-        let hash = md5File.sync(e33path)
-        let fileSize = fs.statSync(e33path).size
+        const hash = md5File.sync(e33path)
+        const fileSize = fs.statSync(e33path).size
         hashs.push({ file: 'ios/dlc/d3_e33.unity3d', hash, size: fileSize, compressed_checksum: '', compressed_file_size: '', compressed: '0' })
       }
-      // **** caculate ios e33 ****
+      // **** caculate android e33 ****
       e33path = path.join(filePath, 'android/dlc/d3_e33.unity3d')
       e33exists = fs.existsSync(e33path)
       if (e33exists) {
-        let hash = md5File.sync(e33path)
-        let fileSize = fs.statSync(e33path).size
+        const hash = md5File.sync(e33path)
+        const fileSize = fs.statSync(e33path).size
         hashs.push({ file: 'android/dlc/d3_e33.unity3d', hash, size: fileSize, compressed_checksum: '', compressed_file_size: '', compressed: '0' })
       }
 
       // **** caculate custom songs opus ****
       const customSongs = songs.filter(song => song.song_id > 191)
       for (const song of customSongs) {
-        let file = `ios/preview/${song.name}.p.opus`
-        let opusPath = path.join(filePath, file)
-        let exists = fs.existsSync(opusPath)
+        const file = `ios/preview/${song.name}.p.opus`
+        const opusPath = path.join(filePath, file)
+        const exists = fs.existsSync(opusPath)
         if (exists) {
-          let hash = md5File.sync(opusPath)
-          let fileSize = fs.statSync(opusPath).size
+          const hash = md5File.sync(opusPath)
+          const fileSize = fs.statSync(opusPath).size
           hashs.push({ file: `ios/preview/${song.name}.p.opus`, hash, size: fileSize, compressed_checksum: '', compressed_file_size: '', compressed: '0' })
           hashs.push({ file: `android/preview/${song.name}.p.opus`, hash, size: fileSize, compressed_checksum: '', compressed_file_size: '', compressed: '0' })
         }
