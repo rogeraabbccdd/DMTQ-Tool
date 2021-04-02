@@ -10,7 +10,7 @@
               q-tab(name="songs" icon="album" label="Songs")
               q-tab(name="patterns" icon="music_note" label="Patterns")
               q-tab(name="settings" icon="settings" label="Settings")
-            q-tab-panels(v-model="tab" animated)
+            q-tab-panels(v-model="tab" animated keep-alive)
               q-tab-panel(name="songs")
                 .text-h6.text-center Custom Songs
                 hr
@@ -23,7 +23,7 @@
                     | Press enter to confirm edit.
                     br
                     | Don't forget to click save button after you edit.
-                  q-table(:data="customSongs" :columns="songColumns")
+                  q-table(:pagination="{rowsPerPage: 10}" :data="customSongs" :columns="songColumns")
                     template(v-slot:top)
                       q-btn(color="primary" label="Add song" @click="newSongDialog = true")
                     template(v-slot:body="props")
@@ -84,7 +84,7 @@
                     | Press enter to confirm edit.
                     br
                     | Don't forget to click save button after you edit.
-                  q-table(:data="customPatterns" :columns="patternColumns" :rows-per-page-options="[20, 50, 100, 0]")
+                  q-table(:pagination="{rowsPerPage: 10}" :data="customPatterns" :columns="patternColumns" :rows-per-page-options="[20, 50, 100, 0]")
                     template(v-slot:top)
                       q-btn(color="primary" label="Add Pattern" @click="newPatternDialog = true")
                     template(v-slot:body="props")
