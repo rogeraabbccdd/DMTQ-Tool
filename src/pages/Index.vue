@@ -28,6 +28,8 @@
                       q-btn(color="primary" label="Add song" @click="newSongDialog = true")
                     template(v-slot:body="props")
                       q-tr(:props="props")
+                        q-td(key="hidden_yn" :props="props")
+                          q-checkbox(v-model="props.row.hidden_yn" :true-value="false" :false-value="true")
                         q-td(key="song_id" :props="props")
                           | {{ props.row.song_id }}
                         q-td(key="name" :props="props")
@@ -47,9 +49,7 @@
                           q-popup-edit(v-model="props.row.artist_name")
                             q-input(v-model="props.row.artist_name" dense autofocus)
                         q-td(key="loop_bga_yn" :props="props")
-                          | {{ props.row.loop_bga_yn ? 'Y' : 'N' }}
-                          q-popup-edit(v-model="props.row.loop_bga_yn")
-                            q-toggle(v-model="props.row.loop_bga_yn" color="primary")
+                          q-checkbox(v-model="props.row.loop_bga_yn" :true-value="true" :false-value="false")
                         q-td(key="composed_by" :props="props")
                           | {{ props.row.composed_by }}
                           q-popup-edit(v-model="props.row.composed_by")
@@ -185,6 +185,7 @@ export default {
         visualized_by: ''
       },
       songColumns: [
+        { name: 'hidden_yn', label: 'Show', field: 'hidden_yn', sortable: false },
         { name: 'song_id', label: 'ID', field: 'song_id', sortable: true },
         { name: 'name', label: 'Name', field: 'name', sortable: true },
         { name: 'full_name', label: 'Full Name', field: 'full_name', sortable: true },
@@ -234,8 +235,16 @@ export default {
     },
     saveSong () {
       this.saving = true
-      const songs = this.songs.concat(this.customSongs)
+      let songs = this.songs.concat(this.customSongs)
+      songs = JSON.parse(JSON.stringify(songs))
+      songs = songs.map(song => {
+        song.loop_bga_yn = song.loop_bga_yn === true ? 'Y' : 'N'
+        song.hidden_yn = song.hidden_yn === true ? 'Y' : 'N'
+
+        return song
+      })
       ipcRenderer.send('saveSong', { path: this.settings.path, songs })
+      this.savePattern()
     },
     addNewSong () {
       this.customSongs.push({
@@ -243,13 +252,13 @@ export default {
         song_id: this.customSongs.length > 0 ? parseInt(this.customSongs[this.customSongs.length - 1].song_id) + 1 : 192,
         item_id: this.customSongs.length > 0 ? parseInt(this.customSongs[this.customSongs.length - 1].item_id) + 1 : 192,
         original_bga_yn: 'Y',
-        loop_bga_yn: this.newSong.loop_bga_yn ? 'Y' : 'N',
+        loop_bga_yn: false,
         cost_game_point: 0,
         cost_game_cash: 0,
         flag: 0,
         status: '',
         free_yn: 'Y',
-        hidden_yn: 'N',
+        hidden_yn: false,
         open_yn: 'Y',
         track_id: this.customSongs.length > 0 ? parseInt(this.customSongs[this.customSongs.length - 1].track_id) + 1 : 500,
         mod_date: '20181217000000',
@@ -293,9 +302,15 @@ export default {
       this.saving = true
       const custompts = JSON.parse(JSON.stringify(this.customPatterns)).map(pattern => {
         pattern.line++
+        const song = this.customSongs.find(song => song.song_id === pattern.song_id)
+        if (song && song.hidden_yn) {
+          pattern.flg = 'N'
+        } else {
+          pattern.flg = 'Y'
+        }
         return pattern
       })
-      console.log(custompts)
+
       const pts = this.patterns.concat(custompts)
       ipcRenderer.send('savePattern', { path: this.settings.path, patterns: pts })
     }
@@ -349,8 +364,16 @@ export default {
     })
 
     ipcRenderer.on('readData-reply', (event, arg) => {
-      this.customSongs = arg.songs.filter(song => song.song_id > 191)
-      this.songs = arg.songs.filter(song => song.song_id <= 191)
+      this.customSongs = arg.songs.filter(song => song.song_id > 191).map(song => {
+        song.hidden_yn = song.hidden_yn === 'Y'
+        song.loop_bga_yn = song.loop_bga_yn === 'Y'
+        return song
+      })
+      this.songs = arg.songs.filter(song => song.song_id <= 191).map(song => {
+        song.hidden_yn = song.hidden_yn === 'Y'
+        song.loop_bga_yn = song.loop_bga_yn === 'Y'
+        return song
+      })
       this.customPatterns = arg.patterns.filter(pattern => pattern.pattern_id > 1320).map(pattern => {
         pattern.line -= 1
         return pattern
